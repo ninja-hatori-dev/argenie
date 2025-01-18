@@ -1,14 +1,17 @@
-##1. Clone the Repository
+# Setup Instructions
+
+## 1. Clone the Repository
 Clone the repository to your local machine:
 
-git clone https://github.com/ninja-hatori-dev/argenie
+git clone https://github.com/ninja-hatori-dev/argenie.
 
-##2. Install Dependencies
+
+## 2. Install Dependencies
 Install the required dependencies:
 
 npm install
-##3. Configure Environment Variables
-Create a .env file in the root of the project and set the following environment variables:
+## 3. Configure Environment Variables
+Create a .env file as example.env:
 
 DATABASE_URL=from docker-compose.yaml
 
@@ -22,11 +25,11 @@ POSTGRES_DB= from docker-compose.yaml
  Node_env=development or 'production'based on your environment
 
 
-##4. Setup Database
+## 4. Setup Database
 
 Run the Docker Compose Command:
 docker-compose up
 
-##5. Run the Application
+## 5. Run the Application
 
 ts-node app.ts
